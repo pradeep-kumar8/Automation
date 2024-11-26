@@ -43,9 +43,9 @@ Dataset Description
 #### The dataset used in this automation script comes from the Summit Tool and contains the following key columns:
 
 Incident ID: Unique identifier for each incident.
-Status: Indicates whether the incident is still open, in progress, or resolved.
-Category: Categorizes the incident (e.g., 'Hardware', 'Network', 'Software').
-Analyst: The analyst assigned to resolve the incident.
+Status: Indicates whether the incident is still open, in progress, or resolved.\n
+Category: Categorizes the incident (e.g., 'Hardware', 'Network', 'Software').\n
+Analyst: The analyst assigned to resolve the incident.\n
 Time to Outcome (TTO): The time taken to resolve the issue.
 Time to Resolution (TTR): The resolution time, indicating whether the SLA was met.
 Resolution Type: Type of resolution provided (e.g., 'Workaround', 'Permanent Fix').
