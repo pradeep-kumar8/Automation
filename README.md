@@ -28,29 +28,29 @@ Optionally, the report can be emailed automatically to the stakeholders, ensurin
 ### Summit Tool Integration:
 
 The data fields are fixed and aligned with the organization’s Summit Tool data structure. These fields include:
-Incident ID: Unique identifier for each incident.
-Status: Current status of the incident (e.g., 'Closed', 'Pending').
-Category: Incident category (e.g., 'Hardware', 'Software').
-Analyst: Name of the analyst responsible for resolving the issue.
-Time to Outcome (TTO): The time taken to resolve the issue.
-Time to Resolution (TTR): The actual resolution time.
-Resolution Type: The nature of the resolution provided (e.g., 'Workaround', 'Permanent Fix').
-Incident Description: A brief description of the issue raised.
+1. Incident ID: Unique identifier for each incident.
+2. Status: Current status of the incident (e.g., 'Closed', 'Pending').
+3. Category: Incident category (e.g., 'Hardware', 'Software').
+4. Analyst: Name of the analyst responsible for resolving the issue.
+5. Time to Outcome (TTO): The time taken to resolve the issue.
+6. Time to Resolution (TTR): The actual resolution time.
+7. Resolution Type: The nature of the resolution provided (e.g., 'Workaround', 'Permanent Fix').
+8. Incident Description: A brief description of the issue raised.
 ### Task Automation:
 
 The entire analysis can be automated and scheduled to run at specific times (e.g., daily, weekly) via cron jobs (Linux) or Task Scheduler (Windows), ensuring that the dashboard is always up-to-date.
 Dataset Description
 #### The dataset used in this automation script comes from the Summit Tool and contains the following key columns:
 
-Incident ID: Unique identifier for each incident.
-Status: Indicates whether the incident is still open, in progress, or resolved.\n
-Category: Categorizes the incident (e.g., 'Hardware', 'Network', 'Software').\n
-Analyst: The analyst assigned to resolve the incident.\n
-Time to Outcome (TTO): The time taken to resolve the issue.
-Time to Resolution (TTR): The resolution time, indicating whether the SLA was met.
-Resolution Type: Type of resolution provided (e.g., 'Workaround', 'Permanent Fix').
-Incident Description: A brief description of the issue.
-Location: Location associated with the incident (optional, if required by the organization).
+1. Incident ID: Unique identifier for each incident.
+2. Status: Indicates whether the incident is still open, in progress, or resolved.
+3. Category: Categorizes the incident (e.g., 'Hardware', 'Network', 'Software').
+4. Analyst: The analyst assigned to resolve the incident.
+5. Time to Outcome (TTO): The time taken to resolve the issue.
+6. Time to Resolution (TTR): The resolution time, indicating whether the SLA was met.
+7. Resolution Type: Type of resolution provided (e.g., 'Workaround', 'Permanent Fix').
+8. Incident Description: A brief description of the issue.
+9. Location: Location associated with the incident (optional, if required by the organization).
 Dependencies
 #### To run this project, ensure that you have the following Python libraries installed:
 
